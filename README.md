@@ -1,57 +1,36 @@
-<h1> [Your Project Title] </h1>
+<h1> Capstone Project Module 2: Customer Segmentation of Giant Foods Supermarket </h1>
 
 
 
 ## 1. Project Overview
-This project analyzes business data to extract insights, improve decision-making, and identify key trends. The primary focus is to **[Your Problem Statements]**(mention business objectives, such as optimizing sales, reducing operational costs, customer segmentation, etc.).
+# Background
+Giant Food, A very old supermarket chain has been open a long time now but only has started its digital transformation. It has started modernizing its approaches but is still confused on how to exactly execute it's technology integration. For a few years it already has digitized some of the data it's collected. It also recently launched some campaigns but it has not made significant improvements. Using the data they were already collecting, they decided to study its customers to better understand them. 
 
-Key Objectives:
-- Objective 1: (E.g., Analyze customer purchasing patterns)
-- Objective 2: (E.g., Forecast future sales using machine learning)
-- Objective 3: (E.g., Identify high-value customer segments)
-
-Business Problem: 
-The supermarket currently lacks an understanding of its customer base. With only raw customer data available, it is unclear who the customers are, how they behave, and how best to engage them.
-
-Why this matters:
-Understanding customer segments is crucial to driving smarter marketing decisions and improving business outcomes such as sales performance, campaign efficiency, and customer retention.
-
-Project Goal:
-Segment the supermarket’s customers using demographic, behavioral, and campaign-related features to identify distinct customer groups. Use these segments to uncover actionable insights for marketing strategy and loyalty programs.
-
-Marketing Objectives Informed by Segmentation
-Personalized Promotions
-
-Target customers with specific discounts based on their spending behavior (e.g., meat lovers, wine buyers).
-Use historical campaign data to predict who is more likely to respond.
-
-Channel Optimization
-Promote offers via the most effective channel for each segment (e.g., online ads for web-savvy shoppers, flyers for in-store buyers).
-Customer Retention Strategy
-
-Tailor offers based on membership length.
-Develop loyalty programs to retain long-term, high-value customers.
+## Business Problem: 
+The supermarket has different ways to promote and sell their products. However, without targeted campaigns the promotions are ineffective. By getting to know our customer, we can more effectively engage them based on their behavior. From the raw data given, we can create customer segmentation to make better marketing decisions, properly manage stock and operations, and even increase revenue if done correctly. 
 
 
-Guiding Questions for Analysis
-These questions guide the exploration and model design:
+## Project Objective/Goal: 
+We want to put our customers in groups or create customer segmentation. They will be divided on available data such as demographics, education, income, and even purchasing behavior. These segments can then be used to change decisions made by stakeholders such as the marketing team or operations team. 
 
-Who are our customer segments based on income, family structure, and spending?
+## Guiding Questions: 
+- Customer Understanding: Who are our customers and how can we improve their shopping experience? 
 
-Which customer segments are more responsive to past campaigns?
+- Customer sensitivity to campaigns: Which customers are more responsive to campaigns and promotions?
 
-How does spending behavior vary by channel and segment?
+- Customer behavior: Which customers are responsible for most of our revenue? (Pareto principle)
 
-Are newer or older members more loyal or responsive?
+- Customer Behavior: Does spending behavior change between different shopping platforms? (Offline vs Online shopping)
 
-What actionable strategies can we propose for each segment?
+## Stakeholders: 
+The current dataset for the supermarket have actionable insights that primarily the marketing team can use. They will be able to understand customer behavior better, Plan and Execute campaigns, Manage discounts and promotions, and Building Loyalty programs from the Customer segmentation done. 
 
+Other stakeholders can include Product team, Operations team, Customer support team.
 
 
 ## 2. Data Sources
-- [Dataset 1](link) - Description of dataset (e.g., Sales data for 2020–2023)
-- [Dataset 2](link) – Description of dataset (e.g., Customer demographic information)
-- ...
+- [Dataset 1][(link)](https://www.kaggle.com/datasets/ahsan81/superstore-marketing-campaign-dataset/data) - Supermarket Data 2014
+
 
 ## 3. Technologies Used
 - Programming Language: Python (e.g., Pandas, NumPy)
@@ -74,24 +53,41 @@ What actionable strategies can we propose for each segment?
 │                         the creator's initials, and a short `-` delimited description, e.g.
 │                         `1.0-jqp-initial-data-exploration`.
 │
-├── reports            <- Generated analysis as PowerPoint, PDF, LaTeX, etc.
+├── Business Presentation            <- Generated analysis as PowerPoint, PDF, LaTeX, etc.
 |   ├── slide          <- Generated PowerPoint
 │   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-└── src                <- Source code for use in this project.
+
 
 ```
 
 ## 5. Summary of Finding
 ### 5.1 Business Insight
-In this section, you can present the **actionable insights** derived from the analysis results.
+From our analysis of the supermarket customer dataset, we identified key differences in campaign response behavior across demographic and behavioral factors. We also segmented customers using LRFM metrics to assess value and engagement levels.
+
+Key findings include:
+- The overall campaign response rate was relatively low, but varied significantly across customer segments.
+- The highest response rates were found in:
+  - **New High-Value Customers** (39%)
+  - **Loyal Customers** (38%)
+  - **Customers Who Need Attention** (32%)
+- The lowest response rates were found in:
+  - **Old Inactive Customers** (9%)
+  - **New Low-Value Customers** (12%)
 ### 5.2 Actionable Recommendation
-In this section, you can offer **actionable business recommendations** to address the identified problems.
+1. **Prioritize campaign targeting toward high-response segments**  
+   Focus on **New High-Value**, **Loyal**, and **Need Attention** customer segments for campaign investment.
+
+2. **Design differentiated campaigns for each segment**  
+   - *Loyal Customers*: Offer loyalty rewards, exclusive early access, or personalized messages.  
+   - *New High-Value Customers*: Use onboarding bundles and welcome promotions.  
+   - *Customers Who Need Attention*: Run re-engagement campaigns such as limited-time discounts or reminders.
+
+3. **Use demographic-informed messaging**  
+   - Tailor messages based on generational preferences (e.g., convenience-focused for younger, health-focused for older).  
+   - Highlight quality, exclusivity, or sustainability to appeal to highly educated and high-income customers.
+
 
 ## 6. Contact
-- Name: 
-- Email:
-- Linkedin:
+- Name: Alief Dharmawan
+- Email: aliefRND@gmail.com
+- Linkedin: [alief_dharmawan](https://www.linkedin.com/in/alief-dharmawan/)
